@@ -1,16 +1,16 @@
 {
-	"name": "bitandbang",
+	"name": "parthiv-card",
 	"version": "4.0.1",
-	"description": "A personal card for Tierney Cyren (@bitandbang)",
+	"description": "A personal card for Parthiv K (@parthiv13)",
 	"main": "/bin/card.mjs",
 	"bin": {
 		"bitandbang": "./bin/card.mjs"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/bnb/bitandbang.git"
+		"url": "git+https://github.com/parthiv13/parthiv.git"
 	},
-	"homepage": "https://bnb.im",
+	"homepage": "https://parthiv.xyz",
 	"scripts": {
 		"prepublish": "npm run build",
 		"build": "node build.mjs",
@@ -27,7 +27,7 @@
 		"npx card",
 		"business card"
 	],
-	"author": "Tierney Cyren <hello@bnb.im> (http://bnb.im)",
+	"author": "Parthiv <kparthiv13@gmail.com> (http://parthiv.xyz)",
 	"license": "MIT",
 	"files": [
 		"bin/card.mjs",
@@ -39,6 +39,6 @@
 		"chalk": "^5.3.0"
 	},
 	"bugs": {
-		"url": "https://github.com/bnb/bitandbang/issues"
+		"url": "https://github.com/parthiv13/parthiv/issues"
 	}
 }

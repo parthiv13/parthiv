@@ -13,20 +13,18 @@ const options = {
 
 // Text + chalk definitions
 const data = {
-	name: chalk.white('           Tierney Cyren'),
-	handle: chalk.white('bitandbang'),
-	shorthandle: chalk.white('bnb'),
-	work: chalk.white('Principal Developer Advocate at Twilio (::)'),
-	twitter: chalk.gray('https://twitter.com/') + chalk.cyan('bitandbang'),
-	mastodon: chalk.gray('https://mastodon.social/') + chalk.magenta('@bnb'),
-	npm: chalk.gray('https://npmjs.com/') + chalk.red('~bnb'),
-	github: chalk.gray('https://github.com/') + chalk.green('bnb'),
-	linkedin: chalk.gray('https://linkedin.com/in/') + chalk.blue('bitandbang'),
-	web: chalk.cyan('https://bnb.im'),
-	npx: `${chalk.red('npx')} ${chalk.white('bitandbang')}`,
+	name: chalk.white('           Parthiv K'),
+	handle: chalk.white('parthiv13'),
+	shorthandle: chalk.white('parthiv'),
+	work: chalk.white('Software Engineer at ') + chalk.cyan('IDeaS'),
+	twitter: chalk.gray('https://twitter.com/') + chalk.cyan('kparthiv13'),
+	npm: chalk.gray('https://npmjs.com/') + chalk.red('~parthiv13'),
+	github: chalk.gray('https://github.com/') + chalk.green('parthiv13'),
+	linkedin: chalk.gray('https://linkedin.com/in/') + chalk.blue('parthiv-kativarapu'),
+	web: chalk.cyan('https://parthiv.xyz'),
+	npx: `${chalk.red('npx')} ${chalk.white('parthiv-card')}`,
 	labelWork: chalk.white.bold('    Work:'),
 	labelTwitter: chalk.white.bold(' Twitter:'),
-	labelMastodon: chalk.white.bold('Mastodon:'),
 	labelnpm: chalk.white.bold('     npm:'),
 	labelGitHub: chalk.white.bold('  GitHub:'),
 	labelLinkedIn: chalk.white.bold('LinkedIn:'),
@@ -39,7 +37,6 @@ const newline = '\n';
 const heading = `${data.name} / ${data.handle} / ${data.shorthandle}`;
 const working = `${data.labelWork}  ${data.work}`;
 const twittering = `${data.labelTwitter}  ${data.twitter}`;
-const mastodoning = `${data.labelMastodon}  ${data.mastodon}`;
 const npming = `${data.labelnpm}  ${data.npm}`;
 const githubing = `${data.labelGitHub}  ${data.github}`;
 const linkedining = `${data.labelLinkedIn}  ${data.linkedin}`;
@@ -54,8 +51,6 @@ const output =
 	working +
 	newline + // data.labelWork + data.work
 	twittering +
-	newline + // data.labelTwitter + data.twitter
-	mastodoning +
 	newline + // data.labelTwitter + data.twitter
 	npming +
 	newline + // data.labelnpm + data.npm
